@@ -18,7 +18,7 @@ setInterval(function() {
       document.getElementById("update_area").innerHTML = response.data;
     }
   };
-  xhttp.open("GET", "update.php", true);
+  xhttp.open("GET", "index.php", true);
   xhttp.send();
 }, 1000);
 </script>
